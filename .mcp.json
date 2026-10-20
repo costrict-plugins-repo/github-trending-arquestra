@@ -1,0 +1,12 @@
+{
+  "arquestra-cloud": {
+    "type": "http",
+    "url": "https://api.arquestra.ai/mcp/orchestration",
+    "oauth": {
+      "clientId": "arquestra",
+      "authorizationEndpoint": "https://api.arquestra.ai/oauth/authorize",
+      "tokenEndpoint": "https://api.arquestra.ai/oauth/token",
+      "scopes": ["mcp:orchestration"]
+    }
+  }
+}
